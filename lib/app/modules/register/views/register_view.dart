@@ -50,7 +50,7 @@ class RegisterView extends GetView<RegisterController> {
                   decoration: InputDecoration(hintText: "Masukan Alamat Anda"),
                   validator: (value) {
                     if (value!.isEmpty) {
-                      return "Aamat tidak boleh kosong";
+                      return "Alamat tidak boleh kosong";
                     }
                     return null;
                   },

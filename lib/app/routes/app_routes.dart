@@ -9,6 +9,8 @@ abstract class Routes {
   static const PEMINJAMAAN = _Paths.PEMINJAMAAN;
   static const REGISTER = _Paths.REGISTER;
   static const BOOK = _Paths.BOOK;
+  static const ADD_PEMINJAMAAN = _Paths.ADD_PEMINJAMAAN;
+  static const ADD_PEMINJAMAN = _Paths.ADD_PEMINJAMAN;
 }
 
 abstract class _Paths {
@@ -19,4 +21,6 @@ abstract class _Paths {
   static const PEMINJAMAAN = '/peminjamaan';
   static const REGISTER = '/register';
   static const BOOK = '/book';
+  static const ADD_PEMINJAMAAN = '/add-peminjamaan';
+  static const ADD_PEMINJAMAN = '/add-peminjaman';
 }
