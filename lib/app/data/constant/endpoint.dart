@@ -6,5 +6,5 @@ class Endpoint {
   static const String register = "${baseUrlApi}register";
   static const String login = "${baseUrlApi}login";
   static const String book = "${baseUrlApi}book";
-  static String pinjam = "${baseUrlApi}pinjam/${int.parse(StorageProvider.read(StorageKey.idUser))}";
+  static const String pinjam = "${baseUrlApi}pinjam";
 }
