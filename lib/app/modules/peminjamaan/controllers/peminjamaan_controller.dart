@@ -27,7 +27,7 @@ class PeminjamaanController extends GetxController with StateMixin<List<DataPinj
 
   void increment() => count.value++;
   Future<void> getData() async {
-    //kalau pke void ada nilai baliknya, jadi ngga perlu return
+    //kalau pke void ada nilai baliknya, jadi ngga perlu returnn
     // getData(){ kalo ngga pakai void type nya dinamic, di kasih return boleh, tdk juga boleh
     change(null, status: RxStatus.loading());
     try {
